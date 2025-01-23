@@ -1,3 +1,30 @@
+/*Code to customize background of the page*/
 body{
   color:white;
+}
+
+/*Code to customize images*/
+
+/*Write code to customize the links that will be buttons*/
+.links{
+  display:flex;
+  margin:10px;
+  text-decoration:none;
+  flex-wrap:wrap;
+  justify-content:bottom;
+}
+/*Code in order to customize links that might be in text*/
+
+/*Code To customize a tag links*/
+a:link{
+}
+
+a:visited{}
+
+a:hover{
+  
+}  
+
+a:active{
+  
 }
