@@ -3,29 +3,111 @@ body{
   color:white;
 }
 
-/*Code to customize images*/
+/*Text Code*/
 
+.title{
+  color:burlywood;
+  text-align:left;
+  font-size:25px;
+}
+.text{
+  color:black;
+  text-align:center;
+}
+
+p{
+  font-size:20px;
+  text-align:center;
+  flex-wrap:wrap;
+}
+h6{
+  font-size:15px;
+}
+.images{
+  padding:10px;
+}
+img{
+  width:500px;
+  height:200px; 
+}
+/* Code to style portfolio*/
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin:20px
+}
+.portfolio{
+  border-style:solid;
+  border-color:goldenrod;
+  align-items:center;
+  margin:10px;
+  text-align:center;
+
+}
+.portfolio img{
+  width:80%;
+}
+.portfolio p{
+  font-size:15px;
+}
+
+/*style for School images.*/
+.schools{
+  
+}
+.schoolE{
+  display:flex;
+  justify-content:center;
+}
+.schoolM{
+  display:flex;
+  justify-content:center;
+}
+.schoolH{
+ display:flex;
+  justify-content:center;
+
+}
+.schools img{
+  border-style:solid;
+  border-color:saddlebrown;
+  width:100px;
+  height:50px;
+  margin:5px;
+}
+.schools img:hover{
+  width:800px;
+  height:400px;  
+}
 /*Write code to customize the links that will be buttons*/
 .links{
-  display:flex;
-  margin:10px;
-  text-decoration:none;
-  flex-wrap:wrap;
-  justify-content:bottom;
+flex-wrap:wrap;
+margin:5px;
+text-align:right;
 }
-/*Code in order to customize links that might be in text*/
 
 /*Code To customize a tag links*/
+a{
+  border-style:solid;
+  border-radius:10px;
+  text-decoration:none;
+  padding:3px;
+}
 a:link{
-  color:;
+  color:#b17528;
 }
 
-a:visited{}
+a:visited{
+  color:#b17528;
+}
 
 a:hover{
-  
+color:#21a321;
+text-decoration:underline;
+font-size:20px;
 }  
 
 a:active{
-  
+
 }
